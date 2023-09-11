@@ -1,0 +1,251 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* --------------------------- */
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1219px;
+    height: 3314px;
+    margin:auto;
+    background: grey;
+}
+header{
+    position: sticky;
+    top: 0;
+    height: 84px;
+    width: 1219px;
+    background: #007765;
+    display: flex;
+}
+/* .plug{
+    height: 84px;
+    background: #007765;
+} */
+main{
+    background-color: white;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 502px;
+    width: 184px;
+    height: 45px;
+    transition: 0.5s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.menu{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+.menu-link{
+    text-decoration: none;
+    color: white;
+}
+.menu-item{
+    width: 160px;
+}
+.menu-item1{
+    border-right: 3px solid white;
+}
+.menu-item3{
+    border-left: 3px solid white;
+}
+.menu-item1{
+    width: 150px;
+    transition: 0.5s;
+}
+.menu-item1:hover{
+    transform: scale(1.1);
+}
+.menu-item2{
+    width: 170px;
+    transition: 0.5s;
+}
+.menu-item2:hover{
+    transform: scale(1.1);
+}
+.menu-item3{
+    width: 115px;
+    transition: 0.5s;
+}
+.menu-item3:hover{
+    transform: scale(1.1);
+}
+.image-piper{
+    height: 403px;
+    background-image: image-set(
+        url('img/image.png') type("image/webp") 1x,
+        url('img/image@2x.png') type("image/webp") 2x
+    );
+}
+.wrapper-piper{
+    color: white;
+    font-size: 72px;
+    line-height: 403px;
+    text-align: center;
+}
+.problem{
+    height: 719px;
+}
+.the-problem{
+    margin-top: 48px;
+    margin-bottom: 50px;
+    font-size: 64px;
+    color: #007765;
+    font-weight: 500;
+    line-height: 105px;
+    text-align: center;
+}
+.paragraph-one{
+    height: 488px;
+    width: 1110px;
+    margin: auto;
+    font-size: 32px;
+    font-weight: 400;
+}
+.paragraph-two{
+    height: 483px;
+    background-image: image-set(
+        url('img/imageTwo.png') type("image/webp") 1x,
+        url('img/imageTwo@2x.png') type("image/webp") 2x
+    );
+}
+.wrapper-image-two{
+    margin-left: 163px;
+    padding-top: 128px;
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    width: 893px;
+    height: 228px;
+    text-align: center;
+    font-style: italic;
+}
+.introducing{
+    height: 604px;
+}
+.header-Introducing{
+    margin-top: 48px;
+    margin-bottom: 16px;
+    color: #007765;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+}
+.wrapper-logo-par{
+    display: flex;
+}
+.img-ppc{
+    margin-left: 55px;
+    margin-right: 48px;
+    margin-bottom: 40px;
+}
+.introducing-paragraph-one{
+    width: 930px;
+    height: 110px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.wrapper-logo-par-two{
+    margin: auto;
+    width: 1110px;
+    height: 223px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.the-team{
+    height: 845px;
+    background: #EEE;
+}
+.header-team{
+    padding-top: 48px;
+    margin-bottom: 56px;
+    color: #007765;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+}
+.wrapper-team{
+    display: inline-block;
+}
+.team{
+    margin-left: 55px;
+    margin-right: 54px;
+}
+.wrapper-team{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 283px;
+    display: inline-block;
+}
+.img-team{
+   margin-top: 24px;
+   margin-left: 91px;
+   margin-bottom: 12px;
+   transition: 0.5s;
+}
+.img-team:hover{
+    transform: scale(1.1);
+ }
+.name{
+    text-align: center;
+    color: #007765;
+    font-size: 24px;
+    font-weight: 700;
+}
+.proffesion{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+footer{
+    background-color: #333;
+    width: 1219px;
+    height: 176px;
+}
+.footer-paragraph{
+    padding-top: 48px;
+    margin-left: 340px;
+    color: white;
+    width: 540px;
+    height: 64px;
+    font-size: 18px;
+    text-align: center;
+}
+
+*{
+    /* border: 1px solid black; */
+}
